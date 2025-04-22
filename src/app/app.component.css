@@ -1,0 +1,185 @@
+.pageContainer {
+    position: relative;
+
+    width  : 100%;
+    height : 100%;
+    padding: 10px;
+}
+
+.pdfControllers {
+    display        : flex;
+    flex-flow      : row wrap;
+    align-items    : center;
+    justify-content: space-between;
+
+}
+
+.controller {
+    width : 100%;
+    height: 100px;
+}
+
+.label {
+    margin-right: 10px;
+}
+
+.selectInput {
+    width       : 100px;
+    margin-right: 10px;
+}
+
+.submitButton {
+    width: 80px;
+}
+
+.submitButton2 {
+    background-color: aqua;
+    width           : 120px;
+    margin-left     : 10px;
+}
+
+.logo {
+    position: absolute;
+    top     : 50%;
+    left    : 50%;
+
+    width : 100px;
+    height: 100px;
+    margin: -50px 0 0 -50px;
+
+    font-size  : 100px;
+    line-height: 100px;
+    text-align : center;
+    opacity    : .5;
+}
+
+.print-area {
+    position     : relative;
+    border       : solid 1px #111;
+    border-top   : none;
+    border-bottom: none;
+    margin       : 0px auto;
+    padding      : 0;
+    display      : flex;
+    flex-flow    : row wrap;
+}
+
+.paper {
+    position : relative;
+    display  : flex;
+    flex-flow: row wrap;
+    overflow : hidden;
+}
+
+
+div.paper.portrait-72 {
+    width : 595px;
+    height: 842px;
+}
+
+div.paper.landscape-72 {
+    height: 595px;
+    width : 842px;
+}
+
+div.paper.portrait-96 {
+    width : 794px;
+    height: 1123px;
+}
+
+div.paper.landscape-96 {
+    height: 794px;
+    width : 1123px;
+}
+
+div.paper.portrait-150 {
+    width : 1240px;
+    height: 1754px;
+}
+
+div.paper.landscape-150 {
+    height: 1240px;
+    width : 1754px;
+}
+
+div.paper.portrait-300 {
+    width : 2480px;
+    height: 3508px;
+}
+
+div.paper.landscape-300 {
+    height: 2480px;
+    width : 3508px;
+}
+
+div.print-area.portrait-72 {
+    width: 595px;
+}
+
+div.print-area.landscape-72 {
+    width: 842px;
+}
+
+div.print-area.portrait-96 {
+    width: 794px;
+}
+
+div.print-area.landscape-96 {
+    width: 1123px;
+}
+
+div.print-area.portrait-150 {
+    width: 1240px;
+}
+
+div.print-area.landscape-150 {
+    width: 1754px;
+}
+
+div.print-area.portrait-300 {
+    width: 2480px;
+}
+
+div.print-area.landscape-300 {
+    width: 3508px;
+}
+
+div.paper-noheader.portrait-72 {
+    width : 595px;
+    height: 842px;
+}
+
+div.paper-noheader.landscape-72 {
+    height: 595px;
+    width : 842px;
+}
+
+div.paper-noheader.portrait-96 {
+    width : 794px;
+    height: 1123px;
+}
+
+div.paper-noheader.landscape-96 {
+    height: 794px;
+    width : 1123px;
+}
+
+div.paper-noheader.portrait-150 {
+    width : 1240px;
+    height: 1754px;
+}
+
+div.paper-noheader.landscape-150 {
+    height: 1240px;
+    width : 1754px;
+}
+
+div.paper-noheader.portrait-300 {
+    width : 2480px;
+    height: 3508px;
+}
+
+div.paper-noheader.landscape-300 {
+    height: 2480px;
+    width : 3508px;
+}
